@@ -7,21 +7,21 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/Value_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginEnd="14dp"
         android:ems="10"
         android:inputType="number" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/Value_two"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/editText2"
-        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/Value_one"
+        android:layout_below="@+id/Value_one"
         android:ems="10"
         android:inputType="number" />
 
@@ -30,7 +30,7 @@
         android:layout_width="135dp"
         android:layout_height="46dp"
         android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/editText2"
+        android:layout_toStartOf="@+id/Value_one"
         android:text="@string/value_1"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -39,8 +39,8 @@
         android:id="@+id/textView3"
         android:layout_width="135dp"
         android:layout_height="46dp"
-        android:layout_below="@+id/editText2"
-        android:layout_toStartOf="@+id/editText2"
+        android:layout_below="@+id/Value_one"
+        android:layout_toStartOf="@+id/Value_one"
         android:text="@string/value_2"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -48,8 +48,8 @@
         android:id="@+id/textView4"
         android:layout_width="135dp"
         android:layout_height="45dp"
-        android:layout_below="@+id/editText4"
-        android:layout_toStartOf="@+id/editText2"
+        android:layout_below="@+id/Value_two"
+        android:layout_toStartOf="@+id/Value_one"
         android:text="@string/operator"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -58,7 +58,7 @@
         android:layout_width="136dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView4"
-        android:layout_toStartOf="@+id/editText2"
+        android:layout_toStartOf="@+id/Value_one"
         android:text="@string/Calculate"
         android:onClick="Calculate"/>
 
@@ -66,7 +66,15 @@
         android:id="@+id/operator_spinner"
         android:layout_width="216dp"
         android:layout_height="45dp"
-        android:layout_alignStart="@+id/editText2"
-        android:layout_below="@+id/textView4" />
+        android:layout_alignStart="@+id/Value_one"
+        android:layout_below="@+id/Value_two" />
+
+    <TextView
+        android:id="@+id/Result_calc"
+        android:layout_width="216dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/Value_one"
+        />
 
 </RelativeLayout>

@@ -12,6 +12,8 @@
     <string name="Oper_Choice">hello</string>
     <string name="Operator_Choice" />
     <string name="Calculate">Calculate</string>
+    <string name="Answer">Answer</string>
+    <string name="Answer1">TextView</string>
     <string-array name="operator">
         <item> + </item>
         <item> - </item>

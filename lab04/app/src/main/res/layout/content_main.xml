@@ -40,7 +40,8 @@
         android:layout_marginTop="-1dp"
         android:contentDescription="@string/donuts"
         android:padding="@dimen/padding_regular"
-        app:srcCompat="@drawable/donut_circle" />
+        app:srcCompat="@drawable/donut_circle"
+        android:onClick="showDonutOrder"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -60,24 +61,39 @@
         android:padding="@dimen/padding_regular"
         android:layout_below="@+id/donut"
         android:contentDescription="@string/ice_cream_sandWiches"
-        app:srcCompat="@drawable/icecream_circle" />
+        app:srcCompat="@drawable/icecream_circle"
+        android:onClick="showIceCreamOrder"/>
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="252dp"
-        android:layout_height="100dp"
+        android:layout_width="258dp"
+        android:layout_height="122dp"
         android:layout_below="@+id/donut"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="-23dp"
         android:layout_toRightOf="@+id/ice_cream"
         android:padding="@dimen/padding_wide"
         android:text="@string/ice_cream_sandWiches" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/froyo"
         android:layout_width="127dp"
         android:layout_height="85dp"
+        android:padding="@dimen/padding_regular"
         android:layout_below="@+id/ice_cream"
-        android:layout_alignParentStart="true"
-        app:srcCompat="@drawable/froyo_circle" />
+        android:contentDescription="@string/foyo"
+        app:srcCompat="@drawable/froyo_circle"
+        android:onClick="showFroyoOrder"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="184dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/ice_cream"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="-2dp"
+        android:layout_toRightOf="@+id/froyo"
+        android:text="@string/foyo" />
 
 
 </RelativeLayout>
