@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="result">result</string>
+    <string name="fValue">fValue</string>
+    <string name="sValue">sValue</string>
+</resources>
