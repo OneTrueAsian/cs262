@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Lab05</string>
+    <string name="instructions" tools:ignore="DuplicateDefinition">Enter a book name, or part of a
+book name, or just some text from a book to find
+the full book title and who wrote the book!</string>
+    <string name="button_text" tools:ignore="DuplicateDefinition">Search Books</string>
+    <string name="input_hint" tools:ignore="DuplicateDefinition">Enter a Book Title</string>
+    <string name="no_results">"No Results Found"</string>
+    <string name="loading">Loading…</string>
+    <string name="no_search_term">No search term</string>
+    <string name="no_network">no network</string>
+</resources>
