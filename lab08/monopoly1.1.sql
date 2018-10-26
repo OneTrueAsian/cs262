@@ -1,3 +1,4 @@
+
 DROP TABLE IF EXISTS SaveGame;
 DROP TABLE IF EXISTS GamePieces;
 DROP TABLE IF EXISTS Buildings;
@@ -60,13 +61,21 @@ GRANT SELECT ON GamePieces TO PUBLIC;
 GRANT SELECT ON SaveGame TO PUBLIC;
 
 -- Add sample records.
-INSERT INTO Game VALUES (1, '2006-06-25 08:00:00');
-INSERT INTO Game VALUES (2, '2006-06-22 13:20:00');
-INSERT INTO Game VALUES (3, '2006-06-29 18:41:00');
+INSERT INTO Game VALUES (1, '2006-06-25 08:00:00', FALSE);
+INSERT INTO Game VALUES (2, '2006-06-28 13:20:00', TRUE);
+INSERT INTO Game VALUES (3, '2006-06-25 18:41:00', FALSE);
+INSERT INTO Game VALUES (4, '2015-06-25 08:00:00', FALSE);
+INSERT INTO Game VALUES (5, '2013-06-22 13:20:00', TRUE);
+INSERT INTO Game VALUES (6, '2015-06-29 14:41:00', FALSE);
+INSERT INTO Game VALUES (7, '2018-10-16 10:00:00', FALSE);
+INSERT INTO Game VALUES (8, '2018-10-23 13:20:00', TRUE);
+INSERT INTO Game VALUES (9, '2018-10-24 23:41:00', FALSE);
 
-INSERT INTO Player VALUES (1, 'me@calvin.edu');
-INSERT INTO Player VALUES (2, 'king@gmail.edu', 'The King');
-INSERT INTO Player VALUES (3, 'dog@gmail.edu', 'Dogbreath');
+INSERT INTO Player VALUES (1, 'me@calvin.edu', 'No Name');
+INSERT INTO Player VALUES (2, 'king@gmail.com', 'The King');
+INSERT INTO Player VALUES (3, 'dog@gmail.com', 'Dogbreath');
+INSERT INTO Player VALUES (4, 'dog@gmail.com', 'Dogbreath');
+
 
 INSERT INTO PlayerGame VALUES (1, 1, 0.00, 2000.00, 1);
 INSERT INTO PlayerGame VALUES (1, 2, 0.00, 1.00, 12);
@@ -82,22 +91,38 @@ INSERT INTO Property VALUES (2, 'Connecticut Avenue' );
 INSERT INTO Property VALUES (3, 'St. Charles Place', 3);
 INSERT INTO Property VALUES (4, 'Virginia Avenue', 1);
 INSERT INTO Property VALUES (5, 'St. James Place', 2);
+INSERT INTO Property VALUES (6, 'Board Walk' );
+INSERT INTO Property VALUES (7, 'Park Avenue', 1);
+INSERT INTO Property VALUES (8, 'Marvin Gardens', 1);
+INSERT INTO Property VALUES (9, 'Baltic Avenue', 3);
 
 INSERT INTO Buildings VALUES (1, 1, 4);
 INSERT INTO Buildings VALUES (2, 2, 5);
 INSERT INTO Buildings VALUES (3, 2, 5);
 INSERT INTO Buildings VALUES (4, 1, 4);
-INSERT INTO Buildings VALUES (5, 1, 4);
+INSERT INTO Buildings VALUES (5, 1, 6);
+INSERT INTO Buildings VALUES (6, 2, 6);
+INSERT INTO Buildings VALUES (7, 2, 4);
+INSERT INTO Buildings VALUES (8, 1, 4);
+INSERT INTO Buildings VALUES (9, 1, 8);
 
 INSERT INTO GamePieces VALUES (1, 1);
 INSERT INTO GamePieces VALUES (2, 2);
 INSERT INTO GamePieces VALUES (3, 3);
 INSERT INTO GamePieces VALUES (4, 4);
 INSERT INTO GamePieces VALUES (5, 5);
+INSERT INTO GamePieces VALUES (6, 4);
+INSERT INTO GamePieces VALUES (7, 3);
+INSERT INTO GamePieces VALUES (8, 7);
+INSERT INTO GamePieces VALUES (9, 2);
 
 
 INSERT INTO SaveGame VALUES (1, 1, 1, 5);
 INSERT INTO SaveGame VALUES (2, 2, 4, 5);
+INSERT INTO SaveGame VALUES (2, 1, 1, 5);
+INSERT INTO SaveGame VALUES (7, 9, 6, 7);
+INSERT INTO SaveGame VALUES (9, 9, 7, 9);
+INSERT INTO SaveGame VALUES (8, 9, 4, 6);
 
-SELECT COUNT(*) FROM PlayerGame;
-SELECT * FROM Property;
+--SELECT COUNT(*) FROM PlayerGame;
+--SELECT * FROM Property;
