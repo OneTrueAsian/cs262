@@ -11,12 +11,12 @@ import java.net.URL;
 
 class NetworkUtils {
 
-    private static final String BOOK_BASE_URL =  "https://www.googleapis.com/books/v1/volumes?";
+    private static final String BOOK_BASE_URL =  "https://calvincs262-monopoly.appspot.com/monopoly/v1/players";
     private static final String QUERY_PARAM = "q"; // Parameter for the search string.
     private static final String MAX_RESULTS = "maxResults"; // Parameter that limits search results.
     private static final String PRINT_TYPE = "printType"; // Parameter to filter by print type.
 
-    // Class name for Log tag.
+    // Class name for Log tag.1
     private static final String LOG_TAG = NetworkUtils.class.getSimpleName();
 
     static String getBookInfo(String queryString){
