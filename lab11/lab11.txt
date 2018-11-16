@@ -1,0 +1,19 @@
+
+Changes made For homework01:
+ 	- I added comments to explain what's goin on. 
+
+Changes not made for homework01:
+	- There was not much to delete, I did remove a couple of unused imports. 
+
+Changes Made for homework02:
+
+	- Made layouts right-to-left compatible
+	- Changed layout height to be 0dp to speed it up.
+	- Got rid of some redundant casts, and null assignments.
+	- Added comments to explain what it's doing. 
+
+Changes Not Made homework02:
+
+	- Did not add autofill hint to number inputs, doe snto make sense to add it for simple numbers
+
+Can't do it for homework 3 because it was assesment and we didn't get out cloud service workingg
