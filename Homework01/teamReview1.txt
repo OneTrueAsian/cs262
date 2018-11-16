@@ -1,0 +1,7 @@
+1.  
+a. Write a one-paragraph review of their vision statement. How unique and compelling is their project idea? Is the vision statement well-written?
+i. I was not able to find their vision statement because it’s not on their trello and I was not added to their hub repo. But form the deliverable and presentation, I like it. They act as the broker for people who are looking for pets, there’s not many apps or companies that do that. 
+b. Do a quick review of their prototype code. Is it there? Is it well-documented? Did they implement something reasonable on which to base their application?
+i. I mean…. It was there… they had the standard hello world app up and running. I wasn’t expecting very much, so I wasn’t too  enthusiastic about it.
+
+

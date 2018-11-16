@@ -1,0 +1,21 @@
+Do their project management materials show the appropriate amount of activity?
+	For the most part yes. Their trello board is pretty active, they have a lot of their talks documented with any pictures. Fro sprint 3,
+they had 57.68 hours logged. 
+
+Write a one-to-two-paragraph review of their models. Is their database schema well-formulated?
+	Their data model looks good, it uyses a many to many relationship, connecting all the tabled together in the matches table.
+One question i do have is, why is photos in it's own table? Could they not add teh table into the Dog table? Also, in the BreedID table,
+what's the point of having a picture in there? Does the Dog picture not represent the dog breed enough? Aside from that, the other tables
+look good. On their github they did not have the sql file for the data table, unless i was looking somewhere else, i don't they added the
+table, i was not able to see it in fruition. 
+
+Has there been an appropriate amount of code pushed into their client and server repos? Can you run the prototype and/or the database?
+	I was not able to see any of their server repos, i looked in the materials and the pinder repos but i could not find it, and due
+to this i was not able to find any of the sql db tables. The prototype worked and ran fine for me, the main screen was very ugly and messy
+but the app ran fine. Since i was unable to find the database, i was unable to run it, so no.
+
+Was their design presentation effective? What worked? What didn’t work? How would you rate their presentation relative to the others?
+	Their design presentation worked fine, like i said before the main screen UI was choppy. From the looks of it, everything worked 
+they planned on. The presentation was kind of lack luster and they talked a little too much which passed their 15 minute time frame, 
+so at the end i was uninterested in the app. From the notes i wrote down i had a few questions, the app seems like a one time use bases, 
+as in useres find the pet and then delete the app, is there a way for us to get more users ? Maybe add more pets to the choices?   

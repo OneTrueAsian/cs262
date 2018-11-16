@@ -1,0 +1,27 @@
+1. How many API endpoints does this application support and where are they implemented?
+	- 3 end point
+	- They are implemented in playerresource.java
+		- player\id has a get, put, delete
+		- players is only get
+2. 
+	- JDBC is what it is
+	- SQL statement  vs JDBC statement objects
+		- jdbc uses a String query object to get the th data
+		and thows it into a try block with exceptions when it does 
+		find thr data
+		A SQL query is somethign that runs
+	- SQL relations vs. JDBC result sets vs. List<Player>
+		- Result set is the result of the Query
+		created in the String Query variable
+		- The list <player> gets a list of players from the player tables
+		- a relation is how each element of the table is connected 
+		using primary keys 
+	- Under what circumstances would the function getValueStringOrNull() be used?
+		- If a value is NULL, it returns an unquoted NULL,
+		 otherwise it returns the quoted value.
+3. 
+	- What purpose does this Player DAO serve?
+		- it contains the information for each player, and the methods 
+		involved in changing the data
+	- How does it compare with the Player table?
+		- it has a getter method that allows us to change the information
