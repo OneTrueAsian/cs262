@@ -1,0 +1,5 @@
+Over all, the prototype for the app was pretty good compared to the last time i saw it. The last time i saw their app, it was very
+cramped and messy. They had all their buttons on one screen, they did not organize it any way and the quiz was not up and running. In today's
+demo and the user test they had all the button on correct screen, they got the questionare up and it looked like a proficient app. One
+complaint i had was that they did not have the swipping mechanism working, but over all the app looks good.
+The team had sufficient amoutn posted to their repos
